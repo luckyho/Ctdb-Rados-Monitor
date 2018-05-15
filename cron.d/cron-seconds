@@ -1,0 +1,5 @@
+#!/bin/bash
+for((i=1;i<=12;i++));do
+    ../monitor_ctdb
+sleep 5
+done
